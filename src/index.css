@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+:root {
+  --primary: #f19509;
+  --PrimaryDark: #e86f00;
+  --lightOrange: #f1dabf;
+  --darkGray: #1a1f25;
+  --lightGray: #272c35;
+}
+
+@layer base{
+    .img-shadow{
+        filter: drop-shadow(40px 50px 35px #0f1115)
+    }
+    
+    .img-shadow2{
+        filter: drop-shadow(10px 30px 15px #0f1115)
+    }
+
+    .img-shadow3{
+        filter: drop-shadow(0px 6px 20px #5e6165)
+    }
+}
