@@ -1,5 +1,4 @@
 import { useState } from 'react';
-import React from 'react'
 import {GiHamburgerMenu} from "react-icons/gi"
 import {motion} from "framer-motion";
 const Navbar = ({sidebar,setSidebar}) => {
