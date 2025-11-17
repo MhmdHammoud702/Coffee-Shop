@@ -19,7 +19,7 @@ function Hero(){
 
     return(
     <main style={bgImage}>
-        <section className="relative min-h-[750px] w-full">
+        <section className="relative min-h-[750px] ">
             <div className="mx-auto p-1 sm:p-2">
                 {/*navbar section*/}
                 <Navbar sidebar={sidebar} setSidebar={setSidebar} />
