@@ -6,7 +6,6 @@ import {FaTwitter} from "react-icons/fa";
 import {FaInstagram} from "react-icons/fa";
 import { FaGoogle } from 'react-icons/fa';
 import { FaCcVisa, FaCcMastercard, FaCcPaypal, FaCcAmex, FaCcDiscover } from "react-icons/fa";
-import {motion} from "framer-motion";
 const Footer = () => {
   return (
     <div className='mx-auto bg-[var(--primary)]'> 
